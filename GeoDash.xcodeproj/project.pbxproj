@@ -16,6 +16,15 @@
 		63105D871D41C3E800A51218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63105D851D41C3E800A51218 /* LaunchScreen.storyboard */; };
 		63105D921D41C3E800A51218 /* GeoDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63105D911D41C3E800A51218 /* GeoDashTests.swift */; };
 		63105D9D1D41C3E800A51218 /* GeoDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63105D9C1D41C3E800A51218 /* GeoDashUITests.swift */; };
+		63105DAB1D41C91B00A51218 /* Obstacle1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63105DAA1D41C91B00A51218 /* Obstacle1.sks */; };
+		63105DAE1D41F46000A51218 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63105DAC1D41F46000A51218 /* Explosion.sks */; };
+		63105DAF1D41F46000A51218 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 63105DAD1D41F46000A51218 /* spark.png */; };
+		63105DB11D41F67F00A51218 /* BoxParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = 63105DB01D41F67F00A51218 /* BoxParticle.png */; };
+		63105DB31D41F72A00A51218 /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63105DB21D41F72A00A51218 /* Explosion.wav */; };
+		63105DB51D41F8DD00A51218 /* Obstacle2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63105DB41D41F8DD00A51218 /* Obstacle2.sks */; };
+		63105DB71D41FBF300A51218 /* Obstacle3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 63105DB61D41FBF300A51218 /* Obstacle3.sks */; };
+		63105DB91D420A4A00A51218 /* FlappyFont.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 63105DB81D420A4A00A51218 /* FlappyFont.TTF */; };
+		63105DBB1D4210F100A51218 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63105DBA1D4210F100A51218 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		63105D981D41C3E800A51218 /* GeoDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63105D9C1D41C3E800A51218 /* GeoDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDashUITests.swift; sourceTree = "<group>"; };
 		63105D9E1D41C3E800A51218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63105DAA1D41C91B00A51218 /* Obstacle1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle1.sks; sourceTree = "<group>"; };
+		63105DAC1D41F46000A51218 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		63105DAD1D41F46000A51218 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		63105DB01D41F67F00A51218 /* BoxParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoxParticle.png; sourceTree = "<group>"; };
+		63105DB21D41F72A00A51218 /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
+		63105DB41D41F8DD00A51218 /* Obstacle2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle2.sks; sourceTree = "<group>"; };
+		63105DB61D41FBF300A51218 /* Obstacle3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle3.sks; sourceTree = "<group>"; };
+		63105DB81D420A4A00A51218 /* FlappyFont.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = FlappyFont.TTF; sourceTree = "<group>"; };
+		63105DBA1D4210F100A51218 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,19 @@
 		63105D771D41C3E800A51218 /* GeoDash */ = {
 			isa = PBXGroup;
 			children = (
+				63105DB81D420A4A00A51218 /* FlappyFont.TTF */,
 				63105D781D41C3E800A51218 /* AppDelegate.swift */,
 				63105D7A1D41C3E800A51218 /* GameScene.sks */,
 				63105D7C1D41C3E800A51218 /* GameScene.swift */,
+				63105DAA1D41C91B00A51218 /* Obstacle1.sks */,
+				63105DB41D41F8DD00A51218 /* Obstacle2.sks */,
+				63105DB61D41FBF300A51218 /* Obstacle3.sks */,
+				63105DB01D41F67F00A51218 /* BoxParticle.png */,
+				63105DAC1D41F46000A51218 /* Explosion.sks */,
+				63105DAD1D41F46000A51218 /* spark.png */,
+				63105DB21D41F72A00A51218 /* Explosion.wav */,
 				63105D7E1D41C3E800A51218 /* GameViewController.swift */,
+				63105DBA1D4210F100A51218 /* HomeScreen.swift */,
 				63105D801D41C3E800A51218 /* Main.storyboard */,
 				63105D831D41C3E800A51218 /* Assets.xcassets */,
 				63105D851D41C3E800A51218 /* LaunchScreen.storyboard */,
@@ -239,9 +266,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				63105D7B1D41C3E800A51218 /* GameScene.sks in Resources */,
+				63105DB91D420A4A00A51218 /* FlappyFont.TTF in Resources */,
+				63105DB51D41F8DD00A51218 /* Obstacle2.sks in Resources */,
 				63105D871D41C3E800A51218 /* LaunchScreen.storyboard in Resources */,
 				63105D841D41C3E800A51218 /* Assets.xcassets in Resources */,
+				63105DAF1D41F46000A51218 /* spark.png in Resources */,
+				63105DAB1D41C91B00A51218 /* Obstacle1.sks in Resources */,
+				63105DB71D41FBF300A51218 /* Obstacle3.sks in Resources */,
+				63105DB31D41F72A00A51218 /* Explosion.wav in Resources */,
 				63105D821D41C3E800A51218 /* Main.storyboard in Resources */,
+				63105DAE1D41F46000A51218 /* Explosion.sks in Resources */,
+				63105DB11D41F67F00A51218 /* BoxParticle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63105DBB1D4210F100A51218 /* HomeScreen.swift in Sources */,
 				63105D7D1D41C3E800A51218 /* GameScene.swift in Sources */,
 				63105D7F1D41C3E800A51218 /* GameViewController.swift in Sources */,
 				63105D791D41C3E800A51218 /* AppDelegate.swift in Sources */,
